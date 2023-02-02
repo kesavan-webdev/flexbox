@@ -17,7 +17,7 @@ body{
     align-items: center;
     background-color: #698269;
     color: #F1DBBF;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     
 }
 .nav-text{
@@ -26,7 +26,6 @@ body{
     margin-left: 2rem;
 }
 .nav-links{
-    text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
     display:flex;
@@ -36,7 +35,7 @@ body{
      so we use GAP property to make space between links*/
     justify-content: space-between;
     gap:3rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 /* header styling */
@@ -44,9 +43,9 @@ body{
 .header-container{
    display: flex;
    flex-direction: row;
-   
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
+   margin:0px 9rem;
 }
 
 .image{
@@ -60,9 +59,10 @@ body{
 display: flex;
 flex-direction: column;
 align-content:space-between;
-height: 5rem;
 gap: 3rem;
 color: #AA5656;
+font-size: 2rem;
+text-align: center;
 }
 
 /* styling font-awesome social links */
@@ -72,9 +72,9 @@ color: #AA5656;
     flex-direction: row;
     justify-content: flex-end;
     align-content: space-around;
-    gap: 8rem;
+    gap: 4rem;
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 9rem;
 }
 .link{
 font-size: 3rem;
