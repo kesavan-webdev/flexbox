@@ -23,6 +23,7 @@ body{
 .nav-text{
     font-size: 3rem;
     font-weight: bolder;
+    margin-left: 2rem;
 }
 .nav-links{
     text-decoration: none;
@@ -52,7 +53,7 @@ body{
     border-radius: 2rem;
     border: 5px solid #698269;
     max-width: 100%;
-    height: auto;
+    height: 30rem;
 }
 
 .header-text-container{
@@ -61,6 +62,7 @@ flex-direction: column;
 align-content:space-between;
 height: 5rem;
 gap: 3rem;
+color: #AA5656;
 }
 
 /* styling font-awesome social links */
@@ -76,4 +78,5 @@ gap: 3rem;
 }
 .link{
 font-size: 3rem;
+color: #AA5656;
 }
