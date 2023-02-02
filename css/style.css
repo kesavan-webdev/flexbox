@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav styling */
+
+.nav-container{
+    height: 5rem;
+    display: flex;
+    /* flex direction will be defaultly in row always make a habit to give this property name and value */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #698269;
+    color: #F1DBBF;
+}
+.nav-text{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.nav-links{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    display:flex;
+    /* flex direction will be defaultly in row always make a habit to give this property name and value */
+    flex-direction: row;
+    /* you see here justify-content wont'be work because it's all inline element
+     so we use GAP property to make space between links*/
+    justify-content: space-between;
+    gap:3rem;
+}
